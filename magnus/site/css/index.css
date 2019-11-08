@@ -1,0 +1,43 @@
+.bar-nav li{
+    list-style-type:none;
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;;
+}
+
+.nav {
+    text-align: right;
+   
+}
+
+.main{
+    position: absolute;
+    border: 1px solid rgb(76, 67, 212); /* Apenas para debug*/
+    top: 50%;
+    left: 50%;   
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+.title{
+    font-size: 86px;
+    color:blue;
+}
+
+.background{
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.front{
+    z-index:1;
+}
+img {     
+    width: 20%;
+    height: 127px;;
+    margin: -2px;
+    opacity: 0.6;
+}
+
